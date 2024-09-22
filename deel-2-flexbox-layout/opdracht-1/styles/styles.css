@@ -1,1 +1,31 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 100px;
+}
+
+main {
+    /* code to define behaviour of main item inside body flexbox */
+    flex-basis: calc(100vh - 200px);
+    /* code to define main as a flexbox itself */
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex: 0 0 60vw;
+}
+
+nav {
+    flex: 1 0 auto;
+    order: 99;
+}
+
+aside {
+    flex: 1 0 auto;
+}

@@ -1,1 +1,71 @@
-/*Schrijf hier jouw CSS*/
+/* Opdracht 1 */
+
+.container-1 {
+    display: flex;
+    /*background-color: lightgray;*/
+    justify-content: space-between;
+}
+
+/* Opdracht 2 */
+
+.container-2 {
+    display: flex;
+    /*background-color: lightgray;*/
+}
+
+.container-2 li {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/* Opdracht 3 */
+
+.container-3 {
+    display: flex;
+    /*background-color: lightgray;*/
+    height: 114px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-1 {
+    align-self: flex-start;
+}
+
+.item-3 {
+    align-self: flex-end;
+}
+
+/* Opdracht 4 */
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Opdracht 5 */
+
+.container-5 {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    /*background-color: lightgray;*/
+}
+
+.container-5 ul {
+    display: flex;
+    /*border: 1px solid tomato;*/
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    align-items: center;
+}
+
+.right {
+    align-items: flex-end;
+
+}
