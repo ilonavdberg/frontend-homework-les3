@@ -1,1 +1,38 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.col-1 {
+    flex: 0 1 20%;
+}
+
+.col-2 {
+    /*behaviour of the item in body container*/
+    flex: 1 1 auto;
+
+    /*behaviour of container itself*/
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 100px;
+}
+
+main {
+    /*behaviour of item in col-2 container*/
+    flex: 1 1 auto; /*vertical*/
+    /*behaviour of container itself*/
+    display: flex;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+aside {
+    flex-basis: 30vw;
+}
